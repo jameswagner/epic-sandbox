@@ -55,10 +55,6 @@ export default function Home() {
             <FhirResource
                   fhirResource={appointments}
                   fhirVersion={fhirVersions.R4}
-                  // fhirIcons={false}
-                  withCarinBBProfile
-                  withDaVinciPDex
-                  thorough
                 />
           </section>
         ) : status === 'loading' ? (
