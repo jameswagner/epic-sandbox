@@ -48,6 +48,11 @@ export default function Home() {
                   Practitioner.Search (R4)
                 </Link>
               </li>
+              <li>
+                <Link href="/Allergy.Search">
+                  Allergy.Search (AllergyIntolerance) (R4)
+                </Link>
+              </li>
             </List>
             <hr className="border-t border-accents-2 my-3" />
             <Text className="text-lg">Welcome {data?.user?.name}!{' '} ({data?.user?.email})</Text>
