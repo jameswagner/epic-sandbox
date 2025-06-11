@@ -53,6 +53,11 @@ export default function Home() {
                   Allergy.Search (AllergyIntolerance) (R4)
                 </Link>
               </li>
+              <li>
+                <Link href="/Medication.Search">
+                  Medication.Search (MedicationRequest) (R4)
+                </Link>
+              </li>
             </List>
             <hr className="border-t border-accents-2 my-3" />
             <Text className="text-lg">Welcome {data?.user?.name}!{' '} ({data?.user?.email})</Text>
